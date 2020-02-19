@@ -1,6 +1,6 @@
 package com.slotvinskiy;
 
-public class Main {
+public class MainForMyMap {
 
 
     public static void main(String[] args) {
@@ -36,10 +36,10 @@ public class Main {
         System.out.println(myMap);
         //Удаление до 10ти элементов
         myMap.remove("Eleven");
+        myMap.remove("Twelve");
+        myMap.remove("Thirteen");
+        myMap.remove("Fourteen");
         myMap.remove("Fifteen");
-        myMap.remove("Eleven");
-        myMap.remove("Fourteen");
-        myMap.remove("Fourteen");
         myMap.remove("Sixteen");
         myMap.remove("Seventeen");
         myMap.remove("Eighteen");
@@ -50,6 +50,7 @@ public class Main {
         if (myMap.containsKey("Ten")) {
             System.out.println(myMap.get("Ten"));
         }
+
 
     }
 
