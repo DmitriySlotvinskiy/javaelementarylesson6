@@ -2,9 +2,7 @@ package com.slotvinskiy;
 
 public class MainForMyMap {
 
-
     public static void main(String[] args) {
-
 
         MyMap myMap = new MyHashMap();
         //Наполнение до 20 элементов
@@ -46,13 +44,9 @@ public class MainForMyMap {
         myMap.remove("Nineteen");
         myMap.remove("Twenty");
         System.out.println(myMap);
-
         if (myMap.containsKey("Ten")) {
             System.out.println(myMap.get("Ten"));
         }
-
-
     }
-
 }
 

@@ -1,13 +1,9 @@
 
 package com.slotvinskiy;
 
-import java.util.Arrays;
-
 public class MainForMySet {
 
-
     public static void main(String[] args) {
-
 
         MySet mySet = new MyHashSet();
         //Наполнение до 20 элементов
@@ -55,7 +51,5 @@ public class MainForMySet {
         }
         mySet.clear();
         System.out.println("Is set empty - " + mySet.isEmpty() + ", size is - " + mySet.size());
-
     }
-
 }

@@ -95,8 +95,6 @@ public class MyHashMap implements MyMap {
         return Math.abs(key.hashCode()) % table.length;
     }
 
-
-
     private void resize() {
         MyHashMap newMap = new MyHashMap(this.table.length * 2);
         for (MyMap.Entry entry : this.entrySet()) {

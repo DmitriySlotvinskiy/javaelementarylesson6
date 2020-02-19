@@ -1,6 +1,5 @@
 package com.slotvinskiy;
 
-import java.util.Set;
 import java.util.Arrays;
 
 public class MyHashSet implements MySet {
